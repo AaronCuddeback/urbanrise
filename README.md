@@ -17,4 +17,7 @@ Install this starter (assuming Gatsby is installed) by running from your CLI:
 `gatsby new gatsby-starter-dimension https://github.com/codebushi/gatsby-starter-dimension`
 
 Run `gatsby develop` in the terminal to start the dev site.
+
 # urbanrise
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c2c80f92-64c6-4ec9-b5c8-df719b4743c5/deploy-status)](https://app.netlify.com/sites/elated-ptolemy-b8c892/deploys)
