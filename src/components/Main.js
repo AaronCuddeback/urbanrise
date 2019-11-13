@@ -2,8 +2,12 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
-
+import canna from '../images/canna.jpg'
+import hr from '../images/hr.jpg'
+import flav from '../images/flav.jpg'
+import artisticink from '../images/artisticink.jpg'
+import rlb from '../images/rlb.jpg'
+import about from '../images/about.jpg'
 class Main extends React.Component {
   render() {
     let close = (
@@ -28,30 +32,57 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Services</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
+          <h3>
+            Innovative solutions for your creative projects <br />
+          </h3>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+          UrbanRise Designs offers a host of web services geared 
+          towards creating and enhancing your online presence. 
+          We take a design approach that aligns with the online 
+          vision and needs of our clients.   Our web solutions 
+          are built to be customizable and scaleable to accommodate 
+          business growth and expansion.  You can leverage Premier’s
+          web knowledge, expertise, and creativity across various web 
+          services including:
           </p>
+
+          <h3>WEBSITE DESIGN</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+          You have about 5 to 15 seconds to convince your visitor to 
+          stay on your website. Use our custom website designs to give 
+          your business website a professional look and feel that hooks 
+          your visitor. We ensure that your website design is appropriately 
+          impressive, contributing very positively to your conversion rates.
           </p>
+          <h4>
+          OUR WEBSITE DESIGN SERVICES INCLUDE:
+          </h4>
+          <p>
+          <b>Responsive website designs</b> – Adapt to today’s phone and 
+             tablet devices, providing your audience with a mobile-friendly 
+             experience.
+          </p>
+          <p><b>Content management System</b> – Manage updating and editing content 
+            for your website. Create multiple users to manage specific areas 
+            of content.
+          </p>
+          <p><b>E-commerce Website Designs</b> – Setup and or integration of 3rd-party 
+          e-commerce solutions.</p>
+          <p><b>Password-protected sections</b> – Serve a variety of your audiences by 
+          having password protected or private restricted areas of your website.
+          </p>
+          <p><b>Database-driven web solutions</b> – Backend web solutions created to 
+          store and serve your clients with information.
+          </p>
+          <h3>WEB DEVELOPMENT</h3>
+             <p>Our web developers combine clean coding with creativity to achieve diverse 
+              web functionalities. You can improve your online business efficiency by using 
+              our web development for web-based CMS, CRM and of course, creating websites.</p>
+
           {close}
         </article>
 
@@ -62,25 +93,104 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Some Of Our Work</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
+          <h4>
+            CannaCura
+          </h4>
+          <a href="https://cannacura.net" target="_blank" rel="noopener noreferrer">
+          <span className="image main">
+             <img src={canna} alt="" />
+            </span>
+            </a>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+          CannaCura is dedicated to bringing health & wellness to the 
+          world by offering a line of cannabinoid products that promote 
+          a healthy body and mind. Our ultimate goal is to help people, 
+          and their loved ones, achieve holistic healing, happiness and 
+          a healthy lifestyle.
+
+          Their website was built using a wordpress CMS system with a 
+          custom design centered around a balanced, centered approach 
+          with a earthy and natural color palette.  The flat modern design 
+          approach emphasises the healthy state of mind and general well-being 
+          promoted by the company.<br />
+          <br />
+           <a href="https://cannacura.net" target="_blank" rel="noopener noreferrer">View Site</a>
           </p>
+
+          <h4>
+            Hangtown Range
+          </h4>
+          <a href="https://hangtownrange.com" target="_blank" rel="noopener noreferrer">
+          <span className="image main">
+             <img src={hr} alt="" />
+            </span>
+            </a>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+          Hangtown range is a small locally owned shooting range where customers
+          can feel comfortable practicing all types of weapons in an up to date, 
+          clean and friendly environment.  The staff is always professional and 
+          welcoming to new and repeat guests.  Their state of the art Virtual 
+          Range is an amazing time!
+
+          Their website was built using a wordpress CMS system with a custom 
+          darker design with a pop of red.  The flat but modern design portrays 
+          the inviting, friendly atmosphere where customers feel welcome to learn 
+          and train.<br />
+          <br />
+           <a href="https://hangtownrange.com" target="_blank" rel="noopener noreferrer">View Site</a>
           </p>
+
+          <h4>
+            The Flavolution
+          </h4>
+          <a href="https://theflavolution.com" target="_blank" rel="noopener noreferrer">
+          <span className="image main">
+             <img src={flav} alt="" />
+            </span>
+            </a>
+          <p>
+          Flavolution is an e-commerce site built on the WordPress 
+          platform using an elegant and simplified navigation. The 
+          focus was to highlight their small yet amazing lineup of 
+          seasonings. <br />
+          <br />
+           <a href="https://theflavolution.com" target="_blank" rel="noopener noreferrer">View Site</a>
+          </p>
+
+          <h4>
+            Artistic Ink
+          </h4>
+          <a href="https://pmu-artisticink.com" target="_blank" rel="noopener noreferrer">
+          <span className="image main">
+             <img src={artisticink} alt="" />
+            </span>
+            </a>
+          <p>
+            Artistic Ink is a permanent cosmetics company which 
+            provides all types of permanent cosmetic services.<br />
+            <br />
+           <a href="https://pmu-artisticink.com" target="_blank" rel="noopener noreferrer">View Site</a>
+          </p>
+
+          <h4>
+            Rear Light BAr
+          </h4>
+          <a href="https://rlbstore.com" target="_blank" rel="noopener noreferrer">
+          <span className="image main">
+             <img src={rlb} alt="" />
+            </span>
+            </a>
+          <p>
+            Rear Light Bar is an offroad lightbar company which 
+            distributes custom lighting for your 4x4 vehicle.<br />
+            <br />
+           <a href="https://rlbstore.com" target="_blank" rel="noopener noreferrer">View Site</a>
+          </p>
+
           {close}
         </article>
 
@@ -93,16 +203,29 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={about} alt="" />
           </span>
+          <h3>
+            Looking for a perfect web agency?
+          </h3>
+          <h3>
+          You’ve just found it – we can realize any project!
+          </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+          At UrbanRise Designs our goal is to build a better web experience 
+          for all our clients and their users. We utilize our experience and 
+          expertise from over 10 years of web design and web development to 
+          create solutions that fit your needs.
+          </p>
+          <h3>
+          Our goal is clients’ success and future growth
+          </h3>
+          <p>
+          We focus on Content Management System (CMS) driven solutions that 
+          empower business users. We believe in clean, efficient code, and to 
+          that end, we are continually searching for the best in new technology. 
+          Some developers take a break by playing foosball – our team is known 
+          to get frothed up over a new developer tool. True fact
           </p>
           {close}
         </article>
@@ -140,26 +263,26 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
+                href="https://twitter.com/urbanrisedesigns"
+                className="icon fa-twitter" target="_blank" rel="noopener noreferrer"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
+              <a href="https://facebook.com/urbanrisedesigns" className="icon fa-facebook" target="_blank" rel="noopener noreferrer">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
+              <a href="https://instagram.com/urbanrisedesigns" className="icon fa-instagram" target="_blank" rel="noopener noreferrer">
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
+                href="https://github.com/aaroncuddeback"
+                className="icon fa-github" target="_blank" rel="noopener noreferrer"
               >
                 <span className="label">GitHub</span>
               </a>
