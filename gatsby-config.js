@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "UrbanRise Designs",
-    author: "Aaron Cuddeback",
-    description: "Crafting Beautifully Stunning and Memorable Websites"
+    title: 'UrbanRise Designs',
+    author: 'Aaron Cuddeback',
+    description: 'Crafting Beautifully Stunning and Memorable Websites',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,6 +19,12 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-93891881-2',
+      },
+    },
   ],
 }
