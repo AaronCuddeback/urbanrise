@@ -4,7 +4,9 @@ import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import canna from '../images/canna.jpg'
 import hr from '../images/hr.jpg'
+import ted from '../images/ted.jpg'
 import flav from '../images/flav.jpg'
+import myriam from '../images/myriam.jpg'
 import artisticink from '../images/artisticink.jpg'
 import rlb from '../images/rlb.jpg'
 import about from '../images/about.jpg'
@@ -94,12 +96,44 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Some Of Our Work</h2>
-          <span className="image main">
+          {/* <span className="image main">
             <img src={pic02} alt="" />
-          </span>
-          <h4>
+          </span> */}
+          <h3>
+            Myriams Hope Hemp
+          </h3>
+          <a href="https://www.myriamshopehemp.com/" target="_blank" rel="noopener noreferrer">
+            <span className="image main">
+              <img src={myriam} alt="" />
+            </span>
+          </a>
+          <p>
+            Myriams Hope Hemp strives to produce and deliver products that are pure and to ship it efficiently to the customer in the soonest time frame possible.They provide their customers relief with their custom-made Cannabis Oil products.
+
+            Myriam's Hope was unique in that it has an incredible number of visitors a month. <br/> 
+            <br />
+            Their site, while built on WordPress for easy content mangement also had to be optimized for speed and efficiency.  Through careful planning and with a focus on customer satisfaction, we built a pleasing site which is easily to navigate while also providing a healing, calming experience.<br />
+            <br />
+            <a href="https://www.myriamshopehemp.com/" target="_blank" rel="noopener noreferrer">View Site</a>
+          </p>
+          <h3>
+            Tranzition Engineering Designs
+          </h3>
+          <a href="https://tedesigns.com" target="_blank" rel="noopener noreferrer">
+            <span className="image main">
+              <img src={ted} alt="" />
+            </span>
+          </a>
+          <p>
+            T.E.Designs builds high quality custom WIY rollcages for off-roading vehicles.  The company family owned and operated with great products and amazing customer service!<br />
+            <br/>
+            T.E.Designs was built on WordPress with a minimal aesthetic.  The site is designed to catch the customers attention with an immediate off-road image.  Without much other interaction on the home page, the customer is immediately led to the purchase portal for browsing products.<br />
+            <br />
+            <a href="https://tedesigns.com" target="_blank" rel="noopener noreferrer">View Site</a>
+          </p>
+          <h3>
             CannaCura
-          </h4>
+          </h3>
           <a href="https://cannacura.net" target="_blank" rel="noopener noreferrer">
           <span className="image main">
              <img src={canna} alt="" />
@@ -110,8 +144,8 @@ class Main extends React.Component {
           world by offering a line of cannabinoid products that promote 
           a healthy body and mind. Our ultimate goal is to help people, 
           and their loved ones, achieve holistic healing, happiness and 
-          a healthy lifestyle.
-
+          a healthy lifestyle.<br/>
+          <br/> 
           Their website was built using a wordpress CMS system with a 
           custom design centered around a balanced, centered approach 
           with a earthy and natural color palette.  The flat modern design 
@@ -121,9 +155,9 @@ class Main extends React.Component {
            <a href="https://cannacura.net" target="_blank" rel="noopener noreferrer">View Site</a>
           </p>
 
-          <h4>
+          <h3>
             Hangtown Range
-          </h4>
+          </h3>
           <a href="https://hangtownrange.com" target="_blank" rel="noopener noreferrer">
           <span className="image main">
              <img src={hr} alt="" />
@@ -134,8 +168,8 @@ class Main extends React.Component {
           can feel comfortable practicing all types of weapons in an up to date, 
           clean and friendly environment.  The staff is always professional and 
           welcoming to new and repeat guests.  Their state of the art Virtual 
-          Range is an amazing time!
-
+          Range is an amazing time!<br/>
+          <br/>
           Their website was built using a wordpress CMS system with a custom 
           darker design with a pop of red.  The flat but modern design portrays 
           the inviting, friendly atmosphere where customers feel welcome to learn 
@@ -144,9 +178,9 @@ class Main extends React.Component {
            <a href="https://hangtownrange.com" target="_blank" rel="noopener noreferrer">View Site</a>
           </p>
 
-          <h4>
+          <h3>
             The Flavolution
-          </h4>
+          </h3>
           <a href="https://theflavolution.com" target="_blank" rel="noopener noreferrer">
           <span className="image main">
              <img src={flav} alt="" />
@@ -161,9 +195,9 @@ class Main extends React.Component {
            <a href="https://theflavolution.com" target="_blank" rel="noopener noreferrer">View Site</a>
           </p>
 
-          <h4>
+          <h3>
             Artistic Ink
-          </h4>
+          </h3>
           <a href="https://pmu-artisticink.com" target="_blank" rel="noopener noreferrer">
           <span className="image main">
              <img src={artisticink} alt="" />
@@ -176,9 +210,9 @@ class Main extends React.Component {
            <a href="https://pmu-artisticink.com" target="_blank" rel="noopener noreferrer">View Site</a>
           </p>
 
-          <h4>
-            Rear Light BAr
-          </h4>
+          <h3>
+            Rear Light Bar
+          </h3>
           <a href="https://rlbstore.com" target="_blank" rel="noopener noreferrer">
           <span className="image main">
              <img src={rlb} alt="" />
