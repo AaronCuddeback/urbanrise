@@ -114,7 +114,6 @@ class Main extends React.Component {
             <br />
             <a href="http://gcw.pno.mybluehost.me/staging/6205/" target="_blank" rel="noopener noreferrer">View Site</a>
           </p>
-          <h3></h3>
           <h3>
             Myriams Hope Hemp
           </h3>
