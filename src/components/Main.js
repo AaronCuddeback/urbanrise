@@ -7,6 +7,7 @@ import hr from '../images/hr.jpg'
 import ted from '../images/ted.jpg'
 import flav from '../images/flav.jpg'
 import myriam from '../images/myriam.jpg'
+import myriam from '../images/surcos.jpg'
 import artisticink from '../images/artisticink.jpg'
 import rlb from '../images/rlb.jpg'
 import about from '../images/about.jpg'
@@ -104,7 +105,7 @@ class Main extends React.Component {
           </h3>
           <a href="http://gcw.pno.mybluehost.me/staging/6205/" target="_blank" rel="noopener noreferrer">
             <span className="image main">
-              <img src={Surcos} alt="" />
+              <img src={surcos} alt="" />
             </span>
           </a>
           <p>
