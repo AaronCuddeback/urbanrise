@@ -109,7 +109,7 @@ class Main extends React.Component {
             </span>
           </a>
           <p>
-            The journey of Surcos Wines began in 1999, where I, Luies Gallegos, embraced working in the wine industry just like my grandfather and father. As a quick learner, I grasped as much knowledge as I could while working in the cellar. I was offered the opportunity to be a Cellar Master and worked under great people and mentors. I then undertook the knowledge of winemaking and have dedicated many years to learning every essential stage of winemaking, from tending to the Surcos all the way to bottling wine.
+            The journey of Surcos Wines began in 1999, where I, Luies Gallegos, embraced working in the wine industry just like my grandfather and father. As a quick learner, I grasped as much knowledge as I could while working in the cellar. I was offered the opportunity to be a Cellar Master and worked under great people and mentors. I then undertook the knowledge of winemaking and have dedicated many years to learning every essential stage of winemaking, from tending to the Surcos all the way to bottling wine.<br />
 
             <br />
             <a href="http://gcw.pno.mybluehost.me/staging/6205/" target="_blank" rel="noopener noreferrer">View Site</a>
